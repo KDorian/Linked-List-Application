@@ -31,7 +31,7 @@ public class Node<T> {
         this.nextNode = next;
     }
 
-    public Node <T> getText(){
+    public Node <T> getNext(){
 
         return nextNode;
     }
