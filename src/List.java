@@ -45,7 +45,7 @@ public class List<T> {
         }
     }
 
-    public String Print(){
+    public String print(){
 
         String str = null;
 
@@ -66,7 +66,7 @@ public class List<T> {
         }
 
         str = str + "\n";
-        str = str + "End" + name + "\n";
+        str = str + "End of " + name + "\n";
 
         return str;
     }
@@ -114,7 +114,8 @@ public class List<T> {
                 current = current.getNext();
             }
 
-            lastNode = current;current.setNext();
+            lastNode = current;
+            current.setNext(null);
         }
 
         return removedItem;
