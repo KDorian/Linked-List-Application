@@ -7,7 +7,7 @@ public class List<T> {
 
     public List(){
 
-        name = " List";
+        name = "List";
         firstNode = lastNode = null;
     }
 
@@ -51,7 +51,7 @@ public class List<T> {
 
         if(isEmpty()){
 
-            str = "Empty" + name;
+            str = "Empty " + name;
         } else {
 
             str = "The " + name + " is : \n\n";
